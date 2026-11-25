@@ -1,0 +1,32 @@
+{
+  "name": "product-api-jwt",
+  "version": "1.0.0",
+  "description": "LAB 7 - Authentification et autorisation JWT avec Node.js, Express et MySQL",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "mysql",
+    "jwt",
+    "bcrypt"
+  ],
+  "author": "Mohamed Boushyl",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.10",
+    "express": "^5.3.0",
+    "express-validator": "^7.3.2",
+    "jsonwebtoken": "^9.0.3",
+    "mysql2": "^3.24.6"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
